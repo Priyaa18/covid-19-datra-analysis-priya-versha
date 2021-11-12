@@ -7,7 +7,7 @@ import numpy as np
 from datetime import datetime
 from IPython.display import Video
 
-
+plt.style.use("dark_background")
 @st.cache
 def load_data():
     df = pd.read_csv('covid_19_data.csv')
